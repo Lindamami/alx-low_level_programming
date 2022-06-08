@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- * _islower - Checks for lowercase characters 
+ * _islower - Checks for lowercase
  * @c: contains value to be compared
  * Return: Always 0.
  */
 int _islower(int c)
-int c;
-int a;
 
-for (a = 97; a <= 122; a++)
 {
 
-if (c == a)
+if (c > 97 && c < 122)
 {
 return (1);
 }
