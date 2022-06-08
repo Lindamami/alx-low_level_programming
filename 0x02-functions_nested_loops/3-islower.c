@@ -11,7 +11,7 @@ int a;
 for (a = 97; a <= 122; a++)
 {
 
-if (c == ‘a’)
+if (c == a)
 {
 return (1);
 }
