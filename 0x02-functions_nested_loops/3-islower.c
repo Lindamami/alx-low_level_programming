@@ -6,6 +6,7 @@
  * Return: Always 0.
  */
 int _islower(int c)
+int c;
 int a;
 
 for (a = 97; a <= 122; a++)
