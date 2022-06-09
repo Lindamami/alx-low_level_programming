@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char c = 'A'
+	char c = 'A'	
 	{
-		if (c <= 'Z')
+		if (c >= 'A' &&  <= 'Z')
 		{
 			return (1);
 		}
