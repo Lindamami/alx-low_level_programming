@@ -1,14 +1,27 @@
-#include <time.h>
-/* more headers goes there */
+#include "main.h"
 
-/* betty style doc for function main goes there */
+/**
+ * main - tests function that prints if integer is positive or negative.
+ *
+ * Return: Always 0 (Success)
+ *
+ */
 int main(void)
 {
-		int n;
+	int i;
+	
+	if (i < 0)
+	{
+		printf("%d is negative \n", i)
+	}
+	else if (i > 0)
+	{
+		printf("%d is positive \n", i)
+	}
+	else
+	{
+		printf("%d is zero \n", i)
+	}
 
-			srand(time(0));
-				n = rand() - RAND_MAX / 2;
-					/* your code goes there */
-					return (0);
+	return 0;
 }
-
