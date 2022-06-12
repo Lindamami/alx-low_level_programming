@@ -14,8 +14,8 @@ int main(void)
 	{
 		putchar((num1 % 10) + '0');
 		putchar((num2 % 10) + '0');
-		if ((num1 == 2) && (num2 == 3))
-		{
+		{		
+			if ((num1 == 2) && (num2 == 3))
 			continue;
 		}	
 		
