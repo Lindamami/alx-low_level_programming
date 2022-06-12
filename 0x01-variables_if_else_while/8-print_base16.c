@@ -8,10 +8,16 @@
 int main(void)
 {
 	int i;
+	int j;
 
-	if ((i <= 9) && (i <= f))
-		putchar(i);
-	putchar('\n');
+	for (i = '0'; i <= '9'; i++)
+	{
+		for (j = 97; j <= 102; j++)
+		{
+			putchar("%d", i);
+			putchar('j \n');
+		}
+	}
 
 	return (0);
 }
