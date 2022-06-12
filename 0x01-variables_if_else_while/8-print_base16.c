@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (j = 97; j <= 102; j++)
 		{
-			putchar("%d", i);
+			putchar(i);
 			putchar('j \n');
 		}
 	}
