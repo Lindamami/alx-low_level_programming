@@ -7,16 +7,18 @@
  */
 int main(void)
 {
-	int num;
+	int num1;
+	int num2;
 
-	for (num = 2; num <= 3; num++)
+	if ((num1 == 2) && (num2 == 3))
 	{
-		putchar((num % 10) + '0');
-		if (num == 3)
+		putchar((num1 % 10) + '0');
+		putchar((num2 % 10) + '0');
 			continue;
 
 		putchar(',');
-		putchar(' ');	
+		putchar(' ');
+
 	}
 
 	putchar('\n');
