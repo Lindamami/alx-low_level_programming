@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * rev-string - reverses a string
+ * rev_string - reverses a string
  * @s: input string
  * Return: no return
  */
-void rev-string(char *s)
+void rev_string(char *s)
 {
 	int count = 0, i, j;
 	char *str, temp;
