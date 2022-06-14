@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - prints half of a string, followed by a new line.
- * @str: input string
+ * puts2 - prints everyother char pf a string starting with
+ * the first character
+ * @str: input string.
  * Return: no return
  */
 void puts2(char *str)
@@ -16,8 +17,8 @@ void puts2(char *str)
 			_putchar('\n');
 			break;
 		}
-			if (count % 2 == 0)
-		       		_putchar(str[count]);
-			count++;
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
 	}
 }
