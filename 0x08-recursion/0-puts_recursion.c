@@ -8,5 +8,9 @@
  */
 void _puts_recursion(char *s)
 {
-	_puts_recursion("New changes\n", s);
+	{
+		_puts_recursion("A recursion");
+	}
+	_puts_recursion("\n");
+
 }
