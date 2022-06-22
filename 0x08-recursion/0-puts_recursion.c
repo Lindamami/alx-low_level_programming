@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
-	_putchar("%c\n", s);
+	_puts_recursion("New changes\n", s);
 }
