@@ -11,7 +11,8 @@ int _strlen_recursion(char *s)
 	for (*s = 0; *s >= (s + 1); s++)
 	{
 		_putchar(*s);
-		_strlen_recursion("%ld", s);
+		_strlen_recursion("%ld");
 	}
 	_putchar('\n');
+	return (0);
 }
