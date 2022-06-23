@@ -8,11 +8,15 @@
  */
 int _pow_recursion(int x, int y)
 {
+	int i;
+
+	i = _pow_recursion(x, y);
+
 	if (y < 0)
 	{
 		return (-1);
 	}
 	else
-		_pow_recursion(x, y);
+		_putchar(i);
 	return (0);
 }
