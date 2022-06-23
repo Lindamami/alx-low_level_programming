@@ -2,6 +2,7 @@
 
 /**
  * is_prime - returns 1 if a prime number.
+ * @c: the iterator
  * @n: the number
  * Return: 1 or 0
  */
