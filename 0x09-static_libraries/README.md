@@ -5,4 +5,4 @@ Basic usage of ar, ranlib, nm
 The main.h file contains all the functions listed.
 The first script creates a static library libmy.a containing tge functions in the main.h file.
 
-The second script is a script called create_static_lib.sh that creates a static library
+The second script is a scripSt called create_static_lib.sh that creates a static library
