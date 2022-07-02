@@ -19,6 +19,7 @@ void _is_zero(char *argv[])
 			isn1 = 0;
 			break;
 		}
+	
 	for (i = 0; argv[2][i]; i++)
 		if (argv[2][i] != '0')
 		{
@@ -71,6 +72,7 @@ int _checknum(char *argv[], int n)
 
 	return (ln);
 }
+
 
 /**
  * main - Entry point.
